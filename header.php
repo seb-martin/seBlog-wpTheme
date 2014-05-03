@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package _s
+ * @package seblog
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -28,8 +28,8 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle"><?php _e( 'Primary Menu', '_s' ); ?></button>
-			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
+			<button class="menu-toggle"><?php _e( 'Primary Menu', 'seblog' ); ?></button>
+			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'seblog' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
